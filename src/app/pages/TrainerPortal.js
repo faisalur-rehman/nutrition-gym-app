@@ -22,8 +22,7 @@ const Hello = () => {
     <div className="col-sm-12">
       <div className="dash">
         <div
-          className={`card card-custom bg-gray-100 card-stretch gutter-b`}
-          style={{ width: "30%" }}
+          className={`card card-custom bg-gray-100 card-stretch gutter-b nav-buttons`}
         >
           <div className="card-body p-0 position-relative overflow-hidden">
             {/* Chart */}
@@ -75,7 +74,7 @@ const Hello = () => {
                     className="text-danger font-weight-bold font-size-h6 mt-2"
                     onClick={() => setNutritionPlan(true)}
                   >
-                    Add nutrition plan
+                    Add nutrition
                   </p>
                 </div>
                 <div className="col bg-light-success px-6 py-8 rounded-xl">
@@ -98,7 +97,7 @@ const Hello = () => {
             </div>
           </div>
         </div>
-        <div style={{ width: "50%" }}>
+        <div className="carousel">
           <NutritionCarousel />
         </div>
       </div>

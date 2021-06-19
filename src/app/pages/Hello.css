@@ -2,3 +2,42 @@
   display: flex !important;
   /* justify-content: space-between !important; */
 }
+.carousel {
+  width: 70% !important;
+}
+.nav-buttons {
+  width: 30% !important;
+}
+@media screen and (min-width: 1401px) {
+  .carousel {
+    display: block;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .carousel {
+    display: none;
+  }
+  .nav-buttons {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 950px) {
+  .dash {
+    /* flex-direction: column !important; */
+  }
+
+  .nav-buttons {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .dash {
+    flex-direction: column !important;
+  }
+  .carousel {
+    display: none;
+  }
+  .nav-buttons {
+    width: 100% !important;
+  }
+}
