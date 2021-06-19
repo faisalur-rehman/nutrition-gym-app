@@ -1,0 +1,26 @@
+.avatar {
+  display: flex;
+}
+.avatar h3 {
+  padding: 10px 8px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  color: white;
+  margin-right: 15px;
+}
+.avatar-btn {
+  vertical-align: middle;
+  border-radius: 22px !important;
+}
+.profile-file {
+  width: 100% !important;
+  margin-top: 25px !important;
+  padding: 10% !important;
+}
+.profile-file i {
+  font-size: 1.5rem;
+}
+.text-center button {
+  border-radius: 25px;
+  margin-top: 25px;
+}
