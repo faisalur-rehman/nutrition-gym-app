@@ -22,10 +22,6 @@
   }
 }
 @media screen and (max-width: 950px) {
-  .dash {
-    /* flex-direction: column !important; */
-  }
-
   .nav-buttons {
     width: 90% !important;
   }
