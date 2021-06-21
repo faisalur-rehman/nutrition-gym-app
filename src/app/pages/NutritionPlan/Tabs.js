@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     // backgroundColor: "blue",
-    width: "50%",
+    // width: "50%",
   },
   tab: {
     backgroundColor: "transparent",
@@ -88,14 +88,14 @@ export default function NavTabs({ workout }) {
         </TabContainer>
       )}
       {value === 3 && !workout && (
-        <div style={{ width: "100%", margin: "auto" }}>
+        <div>
           <TabContainer>
             <NutritionForm />
           </TabContainer>
         </div>
       )}
       {value === 3 && workout && (
-        <div style={{ width: "100%", margin: "auto" }}>
+        <div>
           <TabContainer>
             <WorkoutForm />
           </TabContainer>

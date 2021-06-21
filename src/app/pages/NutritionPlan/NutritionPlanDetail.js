@@ -30,32 +30,36 @@ const NutritionPlanDetail = () => {
             </Form.Control>
           </Form.Group>
         </Form.Row>
-        <Form.Row>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Protein (%)</Form.Label>
-            <Form.Control type="number" />
-          </Form.Group>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Carbs (%)</Form.Label>
-            <Form.Control type="number" />
-          </Form.Group>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Fat (%)</Form.Label>
-            <Form.Control type="number" />
-          </Form.Group>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Fibre (g)</Form.Label>
-            <Form.Control type="number" />
-          </Form.Group>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Sodium (mg)</Form.Label>
-            <Form.Control type="number" />
-          </Form.Group>
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Sugar(g)</Form.Label>
-            <Form.Control type="number" />
-          </Form.Group>
-        </Form.Row>
+        <div className="nutritions-list">
+          <Form.Row>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>Protein (%)</Form.Label>
+              <Form.Control type="number" />
+            </Form.Group>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>Carbs (%)</Form.Label>
+              <Form.Control type="number" />
+            </Form.Group>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>Fat (%)</Form.Label>
+              <Form.Control type="number" />
+            </Form.Group>
+          </Form.Row>
+          <Form.Row>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>Fibre (g)</Form.Label>
+              <Form.Control type="number" />
+            </Form.Group>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>Sodium(mg)</Form.Label>
+              <Form.Control type="number" />
+            </Form.Group>
+            <Form.Group as={Col} controlId="formGridState">
+              <Form.Label>Sugar(g)</Form.Label>
+              <Form.Control type="number" />
+            </Form.Group>
+          </Form.Row>
+        </div>
       </div>
       <Meal mealTime="Breakfast" />
       <Meal mealTime="Lunch" />
