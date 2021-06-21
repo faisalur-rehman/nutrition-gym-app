@@ -74,18 +74,17 @@ const Profile = (props) => {
                 </Form.Group>
               </Form.Row>
             </Form.Group>
-
-            <Form.Group as={Col} controlId="formGridZip">
-              <Form.Label>Gender*</Form.Label>
-              <Form.Control as="select">
-                <option selected disabled>
-                  Select
-                </option>
-                <option>Male</option>
-                <option>Female</option>
-              </Form.Control>
-            </Form.Group>
           </Form.Row>
+          <Form.Group as={Col} controlId="formGridZip">
+            <Form.Label>Gender*</Form.Label>
+            <Form.Control as="select">
+              <option selected disabled>
+                Select
+              </option>
+              <option>Male</option>
+              <option>Female</option>
+            </Form.Control>
+          </Form.Group>
           <Form.Group controlId="exampleForm.ControlTextarea1">
             <Form.Label>Goal</Form.Label>
             <Form.Control as="textarea" rows="3" />

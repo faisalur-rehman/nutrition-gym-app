@@ -18,7 +18,7 @@ const ClientPortal = () => {
     <div className="col-sm-12">
       <div className="dash">
         <div
-          className={`card card-custom bg-gray-100 card-stretch gutter-b`}
+          className={`card card-custom bg-gray-100 card-stretch gutter-b nav-buttons`}
           style={{ width: "30%" }}
         >
           <div className="card-body p-0 position-relative overflow-hidden">
